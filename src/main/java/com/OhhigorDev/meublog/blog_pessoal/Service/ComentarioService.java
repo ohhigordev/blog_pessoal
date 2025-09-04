@@ -1,12 +1,12 @@
 package com.OhhigorDev.meublog.blog_pessoal.Service;
 
-import com.OhhigorDev.meublog.blog_pessoal.Controller.DTO.Comentario.ComentarioReponseDTO;
-import com.OhhigorDev.meublog.blog_pessoal.Controller.DTO.Comentario.ComentarioRequestDTO;
+import com.OhhigorDev.meublog.blog_pessoal.Model.DTO.Comentario.ComentarioReponseDTO;
+import com.OhhigorDev.meublog.blog_pessoal.Model.DTO.Comentario.ComentarioRequestDTO;
 import com.OhhigorDev.meublog.blog_pessoal.Exception.ResourceNotFoundException;
 import com.OhhigorDev.meublog.blog_pessoal.Model.Comentario;
 import com.OhhigorDev.meublog.blog_pessoal.Model.Post;
-import com.OhhigorDev.meublog.blog_pessoal.Repository.ComentarioRepository;
-import com.OhhigorDev.meublog.blog_pessoal.Repository.PostRepository;
+import com.OhhigorDev.meublog.blog_pessoal.repository.ComentarioRepository;
+import com.OhhigorDev.meublog.blog_pessoal.repository.PostRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

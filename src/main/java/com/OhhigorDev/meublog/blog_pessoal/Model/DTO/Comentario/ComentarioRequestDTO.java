@@ -1,4 +1,4 @@
-package com.OhhigorDev.meublog.blog_pessoal.Controller.DTO.Comentario;
+package com.OhhigorDev.meublog.blog_pessoal.Model.DTO.Comentario;
 
 import java.util.UUID;
 

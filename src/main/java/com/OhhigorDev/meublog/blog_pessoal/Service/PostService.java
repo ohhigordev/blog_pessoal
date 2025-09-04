@@ -1,12 +1,12 @@
 package com.OhhigorDev.meublog.blog_pessoal.Service;
 
-import com.OhhigorDev.meublog.blog_pessoal.Controller.DTO.Post.PostRequestDTO;
-import com.OhhigorDev.meublog.blog_pessoal.Controller.DTO.Post.PostResponseDTO;
+import com.OhhigorDev.meublog.blog_pessoal.Model.DTO.Post.PostRequestDTO;
+import com.OhhigorDev.meublog.blog_pessoal.Model.DTO.Post.PostResponseDTO;
 import com.OhhigorDev.meublog.blog_pessoal.Exception.ResourceNotFoundException;
 import com.OhhigorDev.meublog.blog_pessoal.Model.Autor;
 import com.OhhigorDev.meublog.blog_pessoal.Model.Post;
-import com.OhhigorDev.meublog.blog_pessoal.Repository.AutorRepository;
-import com.OhhigorDev.meublog.blog_pessoal.Repository.PostRepository;
+import com.OhhigorDev.meublog.blog_pessoal.repository.AutorRepository;
+import com.OhhigorDev.meublog.blog_pessoal.repository.PostRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 

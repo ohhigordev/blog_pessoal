@@ -2,11 +2,11 @@ package com.OhhigorDev.meublog.blog_pessoal.Service;
 
 
 
-import com.OhhigorDev.meublog.blog_pessoal.Controller.DTO.Autor.AutorRequestDTO;
-import com.OhhigorDev.meublog.blog_pessoal.Controller.DTO.Autor.AutorResponseDTO;
+import com.OhhigorDev.meublog.blog_pessoal.Model.DTO.Autor.AutorRequestDTO;
+import com.OhhigorDev.meublog.blog_pessoal.Model.DTO.Autor.AutorResponseDTO;
 import com.OhhigorDev.meublog.blog_pessoal.Exception.ResourceNotFoundException;
 import com.OhhigorDev.meublog.blog_pessoal.Model.Autor;
-import com.OhhigorDev.meublog.blog_pessoal.Repository.AutorRepository;
+import com.OhhigorDev.meublog.blog_pessoal.repository.AutorRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 

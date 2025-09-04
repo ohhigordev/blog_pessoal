@@ -1,7 +1,7 @@
-package com.OhhigorDev.meublog.blog_pessoal.Repository;
+package com.OhhigorDev.meublog.blog_pessoal.repository;
 
-import com.OhhigorDev.meublog.blog_pessoal.Controller.DTO.Autor.AutorRequestDTO;
-import com.OhhigorDev.meublog.blog_pessoal.Controller.DTO.Autor.AutorResponseDTO;
+import com.OhhigorDev.meublog.blog_pessoal.Model.DTO.Autor.AutorRequestDTO;
+import com.OhhigorDev.meublog.blog_pessoal.Model.DTO.Autor.AutorResponseDTO;
 import com.OhhigorDev.meublog.blog_pessoal.Exception.ResourceNotFoundException;
 import com.OhhigorDev.meublog.blog_pessoal.Model.Autor;
 import com.OhhigorDev.meublog.blog_pessoal.Service.AutorService;

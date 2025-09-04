@@ -1,4 +1,4 @@
-package com.OhhigorDev.meublog.blog_pessoal.Controller.DTO.Post;
+package com.OhhigorDev.meublog.blog_pessoal.Model.DTO.Post;
 
 import com.OhhigorDev.meublog.blog_pessoal.Model.Post;
 

@@ -1,4 +1,4 @@
-package com.OhhigorDev.meublog.blog_pessoal.Repository;
+package com.OhhigorDev.meublog.blog_pessoal.repository;
 
 
 

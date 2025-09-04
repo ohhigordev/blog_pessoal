@@ -1,18 +1,18 @@
-package com.OhhigorDev.meublog.blog_pessoal.Controller.DTO.Comentario;
+package com.OhhigorDev.meublog.blog_pessoal.Model.DTO;
 
 import com.OhhigorDev.meublog.blog_pessoal.Model.Comentario;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-public record ComentarioReponseDTO(
+public record ComentarioDTO(
         UUID id,
         String conteudo,
         String autorComentario,
         LocalDateTime dataComentario,
         UUID postId
 ) {
-    public ComentarioReponseDTO(Comentario comentario){
+    public ComentarioDTO(Comentario comentario){
         this(
                 comentario.getId(),
                 comentario.getConteudo(),

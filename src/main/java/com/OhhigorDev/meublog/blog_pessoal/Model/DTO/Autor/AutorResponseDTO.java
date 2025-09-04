@@ -1,4 +1,4 @@
-package com.OhhigorDev.meublog.blog_pessoal.Controller.DTO.Autor;
+package com.OhhigorDev.meublog.blog_pessoal.Model.DTO.Autor;
 
 import com.OhhigorDev.meublog.blog_pessoal.Model.Autor;
 
